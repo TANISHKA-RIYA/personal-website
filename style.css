@@ -50,6 +50,7 @@ h2 {
 .parallax-inner {
     display: table-cell;
     vertical-align: middle;
+    position: relative;
 }
 
 .menu {
@@ -69,4 +70,25 @@ h2 {
     padding-bottom: 5px;
     font-family: fantasy;
     font-size: 20px;
+}
+
+.article:hover {
+    background-color: blue;
+}
+
+a {
+    color: rgb(241, 237, 139);
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.links:hover {
+    background-color: blue;
+}
+
+span {
+    padding: 5px;
 }
